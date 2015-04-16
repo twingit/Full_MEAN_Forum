@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="forumApp">
+<head>
+	<title>Full MEAN Demo</title>
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css"> -->
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+	
+	<script src="app.js"></script>
+	<script src="./controllers/answers.js"></script> 
+	<script src="./controllers/comments.js"></script>
+	<script src="./controllers/topics.js"></script>
+	<script src="./controllers/users.js"></script>
+	<script src="./factories/answers_factory.js"></script>
+	<script src="./factories/comments_factory.js"></script>
+	<script src="./factories/dashboard_factory.js"></script>
+	<script src="./factories/topics_factory.js"></script>
+	<script src="./factories/users_factory.js"></script>
+</head>
+<body>
+	<div>
+    	<div ng-view=""></div>
+    </div>
+</body>
+</html>
